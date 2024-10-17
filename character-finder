@@ -1,0 +1,12 @@
+sentence = input("Enter Word/Sentence: ")
+upper_sentence = sentence.upper()
+letter = input("Select Letter: ")
+upper_letter = letter.upper()
+string = ""
+
+for letters in upper_sentence:
+    if letters == upper_letter:
+        string = string + letter
+        
+amount = len(string)
+print("There are", amount, letter, "in", sentence)

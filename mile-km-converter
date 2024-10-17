@@ -1,0 +1,18 @@
+order = input("Enter Any One (m-km or km-m): ")
+
+if order == "m-km":
+    mile = int(input("Enter Miles: "))
+    km = mile * 0.621
+    if mile == 1:
+        print(mile, "mile is", km, "kilometers")
+    else:
+        print(mile, "miles are", km, "kilometers")
+elif order == "km-m":
+    km = int(input("Enter Kilometers: "))
+    mile = km * 1.609
+    if km == 1:
+        print(km, "kilometer is", mile, "mile")
+    else:
+        print(km, "kilometers are", mile, "miles")
+else:
+    print("Kindly choose correct one!")

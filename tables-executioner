@@ -1,0 +1,8 @@
+number = int(input("Enter a number: "))
+till = int(input("Till which number u need the table: "))
+num = 1
+
+for i in range(till):
+    ans = number * num
+    print(number, "x", num, "=", ans )
+    num += 1

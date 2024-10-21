@@ -1,0 +1,18 @@
+num_1 = float(input("Enter 1st Number: "))
+num_2 = float(input("Enter 2nd Number: "))
+operator = input("Select Operator (+, -, *, /): ")
+
+if operator == "+":
+    sum = num_1 + num_2
+    print("The Result of", num_1, "+", num_2,"is", sum)
+elif operator == "-":
+    sub = num_1 - num_2
+    print("The Result of", num_1, "-", num_2, "is", sub)
+elif operator == "*":
+    product = num_1 * num_2
+    print("The Result of", num_1, "x", num_2, "is", product)
+elif operator == "/":
+    ratio = num_1 / num_2
+    print("The Result of", num_1, "/", num_2, "is", ratio)
+else:
+    print("Kindly Enter Valid Values!")
